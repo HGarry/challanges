@@ -1,0 +1,118 @@
+{
+  "socialProfiles": [
+    {
+      "handle": "@nathanf",
+      "followers": 1987,
+      "type": "Followers",
+      "changeToday": 12,
+      "trend": "up",
+      "social": "../images/icon-facebook.svg",
+      "isfollowerup": true,
+      "color": "border-Blue-600"
+    },
+    {
+      "handle": "@nathanf",
+      "followers": 1044,
+      "type": "Followers",
+      "changeToday": 99,
+      "trend": "up",
+      "social": "../images/icon-twitter.svg",
+      "isfollowerup": true,
+      "color": "border-Blue-500"
+    },
+    {
+      "handle": "@realnathanf",
+      "followers": "11k",
+      "type": "Followers",
+      "changeToday": 1099,
+      "trend": "up",
+      "social": "../images/icon-instagram.svg",
+      "isfollowerup": true,
+      "color": "border-Linear-gradient"
+    },
+    {
+      "handle": "Nathan F.",
+      "followers": 8239,
+      "type": "Subscribers",
+      "changeToday": 144,
+      "trend": "up",
+      "social": "../images/icon-youtube.svg",
+      "isfollowerup": false,
+      "color": "border-Red-700"
+    }
+  ],
+  "overviewToday": [
+    {
+      "metric": "Page Views",
+      "value": 87,
+      "change": 3,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-facebook.svg",
+      "isfollowerup": true
+    },
+    {
+      "metric": "Likes",
+      "value": 52,
+      "change": 2,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-facebook.svg",
+      "isfollowerup": false
+    },
+    {
+      "metric": "Likes",
+      "value": 5462,
+      "change": 2257,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-instagram.svg",
+      "isfollowerup": true
+    },
+    {
+      "metric": "Profile Views",
+      "value": "52k",
+      "change": 1375,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-instagram.svg",
+      "isfollowerup": true
+    },
+    {
+      "metric": "Retweets",
+      "value": 117,
+      "change": 303,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-twitter.svg",
+      "isfollowerup": true
+    },
+    {
+      "metric": "Likes",
+      "value": 507,
+      "change": 553,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-twitter.svg",
+      "isfollowerup": true
+    },
+    {
+      "metric": "Likes",
+      "value": 107,
+      "change": 19,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-youtube.svg",
+      "isfollowerup": false
+    },
+    {
+      "metric": "Total Views",
+      "value": 1407,
+      "change": 12,
+      "unit": "%",
+      "trend": "up",
+      "social": "../images/icon-youtube.svg",
+      "isfollowerup": false
+    }
+  ]
+}
