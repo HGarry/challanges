@@ -1,11 +1,11 @@
 import React from "react";
 
-function Social({ item }) {
+function Social({ item, setIsDarkMode }) {
   const arrowUp = "../images/icon-up.svg";
   const arrowDown = "../images/icon-down.svg";
   return (
     <div
-      className={`bg-bg-card w-56 px-8 py-5 flex flex-col items-center ${item?.color} border-t-5  rounded-xs`}
+      className={`bg-bg-card w-screen px-8 py-5 flex flex-col items-center ${item?.color} border-t-5  rounded-xs`}
     >
       <div className="flex items-center gap-3">
         <img src={item?.social} alt="social" />
@@ -18,7 +18,11 @@ function Social({ item }) {
 
       <div className="flex gap-3 items-center justify-center">
         <img src={item?.isfollowerup ? arrowUp : arrowDown} alt="" />
-        <span>{item?.changeToday} Today</span>
+        <span
+          className={item?.isfollowerup ? "text-Green-500" : "text-Red-500"}
+        >
+          {item?.changeToday} Today
+        </span>
       </div>
     </div>
   );
