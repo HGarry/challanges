@@ -28,7 +28,7 @@
       "trend": "up",
       "social": "../images/icon-instagram.svg",
       "isfollowerup": true,
-      "color": "border-Linear-gradient"
+      "color": "[border-image:linear-gradient(to_right,hsl(37,97%,70%),hsl(5,77%,71%),hsl(329,70%,58%))_1]"
     },
     {
       "handle": "Nathan F.",
