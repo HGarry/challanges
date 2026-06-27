@@ -1,10 +1,9 @@
-import React from "react";
 
-function Social({ item, setIsDarkMode }) {
+function Social({ item }) {
   const arrowUp = "../images/icon-up.svg";
   const arrowDown = "../images/icon-down.svg";
   return (
-    <div className={`${item?.color} md:w-screen rounded-xs mb-6 md:mb-0`}>
+    <div className={`${item?.color} w-full rounded-xs mb-6 md:mb-0`}>
       <div
         className={`bg-bg-card  px-8 py-5 flex flex-col items-center justify-center  mt-1 hover:bg-hover cursor-pointer`}
       >

@@ -1,4 +1,3 @@
-import React from "react";
 import data from "/data.json";
 import Social from "./Social";
 
@@ -7,7 +6,7 @@ function Socials({ setIsDarkMode }) {
 
   return (
     <>
-      <div className="md:flex gap-5 items-center justify-center mb-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
         {data.socialProfiles.map((item, index) => {
           return (
             <Social setIsDarkMode={setIsDarkMode} key={index} item={item} />
