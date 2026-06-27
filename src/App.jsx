@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div
-        className={`bg-bg flex justify-center items-center w-screen h-screen mx-auto px-5 ${isDarkMode ? "dark" : ""}`}
+        className={`bg-bg md:flex justify-center items-center py-5 md:w-screen md:h-screen mx-auto px-5 ${isDarkMode ? "dark" : ""}`}
       >
         <div className="md:min-w-4xl md:max-w-6xl">
           <Nav setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />

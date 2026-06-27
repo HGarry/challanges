@@ -5,8 +5,8 @@ function Overview({ item, setIsDarkMode }) {
   const arrowDown = "../images/icon-down.svg";
   console.log(item?.type);
   return (
-    <div>
-      <div className="bg-bg-card rounded-xs p-5">
+    <div className="mb-6">
+      <div className="bg-bg-card rounded-xs p-5 cursor-pointer hover:bg-gray-200">
         <div className="flex justify-between items-center mb-4">
           <p>{item?.metric}</p>
           <img src={item?.social} alt="" />

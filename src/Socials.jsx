@@ -7,9 +7,11 @@ function Socials({ setIsDarkMode }) {
 
   return (
     <>
-      <div className="flex gap-5 items-center justify-center mb-10">
+      <div className="md:flex gap-5 items-center justify-center mb-10">
         {data.socialProfiles.map((item, index) => {
-          return <Social setIsDarkMode={setIsDarkMode} key={index} item={item} />;
+          return (
+            <Social setIsDarkMode={setIsDarkMode} key={index} item={item} />
+          );
         })}
       </div>
     </>
